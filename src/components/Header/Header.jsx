@@ -6,12 +6,6 @@ import { useState, useEffect } from 'react'
 
 const Header = () => {
 
-    const [animate, setAnimate] = useState(false);
-  
-    useEffect(() => {
-      setAnimate(true);
-    }, []);
-
   return (
     <header>
       <div className='wrapper'>
