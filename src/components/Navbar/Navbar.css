@@ -17,6 +17,7 @@ nav ul {
     list-style: none;
     padding: 0;
     gap: 50px;
+
 }
 
 nav ul li a,
@@ -24,6 +25,10 @@ a.logo {
     color: #ffff;
     font-weight: 800;
     font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: gray;
 }
 
 a.logo .red {

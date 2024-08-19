@@ -26,6 +26,23 @@ header .cta {
 
 }
 
+@keyframes zoomOut {
+    0% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.cta {
+    animation: zoomOut 3s ease-out forwards;
+}
+
+
 header .cta .course-name {
     font-weight: 800;
     font-size: 16px;
@@ -63,8 +80,12 @@ header .cta .demo-btn {
     padding: 10px 32px;
     font-weight: 800;
     font-size: 16px;
+    transition: transform 300ms ease-in-out;
+    display: inline-block;
+}
 
-
+header .cta .demo-btn:hover {
+    transform: scale(1.05);
 }
 
 /*Tablet Version*/

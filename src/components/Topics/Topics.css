@@ -18,6 +18,10 @@
     position: relative;
 }
 
+#topics .topics-list li:hover {
+    color: gray;
+}
+
 #topics .topics-list li::before {
     content: "";
     position: absolute;
